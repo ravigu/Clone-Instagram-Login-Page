@@ -1,0 +1,318 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(245, 245, 245, 0.875);
+}
+#box{
+    position: absolute;
+    width: 60%;
+    height: 95%;
+    background-color: whitesmoke;
+    left: 20%;
+    bottom: 0%;
+}
+#box2{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    right: 0%;
+    border: 1px solid rgba(99, 99, 99, 0.266);
+    border-radius: 5px;
+}
+
+#ins{
+    position: absolute;
+    width: 60%;
+    height: 50px;
+    background-color: white;
+    left: 20%;
+    top: 5%;
+    border-radius: 5px;
+    /* border: 1px solid rgba(0, 0, 0, 0.266); */
+
+}
+#ins h1{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#name{
+    position: absolute;
+    width: 80%;
+    height: 35px;
+    background-color: white;
+    left: 10%;
+    top:24%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.266);
+}
+.pp h6{ 
+     position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    top: 5px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.553);
+  
+}
+#pass{
+    position: absolute;
+    width: 80%;
+    height: 35px;
+    background-color: white;
+    left: 10%;
+    top:34%;
+    border-radius: 5px;
+    border: 1px solid rgba(8, 8, 8, 0.266);
+}
+#log{
+    position: absolute;
+    width: 80%;
+    height: 30px;
+    background-color: rgba(122, 156, 242, 0.687);
+    left: 10%;
+    top:46%;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#nest{
+    position: absolute;
+    width: 80%;
+    height: 35px;
+    /* background-color: rgb(154, 91, 91); */
+    left: 10%;
+    top:58%;
+    border-radius: 5px;
+    
+}
+#line{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(148, 146, 146);
+    top: 50%;
+}
+#or{ 
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color:white;
+    left: 46%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgba(0, 0, 0, 0.363);
+    z-index: 99;
+}
+#fab{
+    position: absolute;
+    width: 80%;
+    height: 35px;
+    /* background-color: rgb(255, 255, 255); */
+    left: 10%;
+    top:68%;
+    border-radius: 5px;
+    /* border: 1px solid rgba(8, 8, 8, 0.266); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#fab h5{
+    font-size: 20px;
+    color: rgba(3, 3, 133, 0.781);
+}
+#fab i{
+    position: absolute;
+    font-size: 28px;
+    color: rgba(3, 3, 133, 0.74);
+    left: 15%;
+}
+#for{
+    position: absolute;
+    width: 80%;
+    height: 35px;
+    /* background-color: rgb(91, 27, 27); */
+    left: 10%;
+    bottom: 15%;
+    border-radius: 5px;
+    /* border: 1px solid rgba(8, 8, 8, 0.266); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgba(3, 3, 133, 0.74);
+}
+#dbox{
+    position: absolute;
+    width: 50%;
+    height: 10%;
+    background-color: white;
+    border: 1px solid rgba(8, 8, 8, 0.266);
+    right: 0%;
+    bottom: 28%;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.697);
+    font-weight: bold;
+}
+#dbox h3{
+    font-size: 17px;
+    color: rgba(2, 2, 147, 0.675);
+}
+#get{
+    position: absolute;
+    width: 50%;
+    height: 10%;
+    /* background-color: black; */
+    bottom: 20%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.712);
+}
+#sto{
+    position: absolute;
+    width: 50%;
+    height: 10%;
+    /* background-color: black; */
+    bottom: 12%;
+    right: 0%;
+    border-radius: 5px;
+}
+#sto1{
+    position: absolute;
+    width:40%;
+    left: 5%;
+    height: 55%;
+    bottom: 0%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.8);
+    
+}
+#sto2{
+    position: absolute;
+    width: 40%;
+    height:55%;
+    right: 5%;
+    bottom: 0%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.799);
+
+}
+/* #sto1 p {
+    position: absolute;
+    font-size: 12px;
+    right: 10%;
+    margin-right:3%;
+}
+#sto h6{
+    position: absolute;
+    font-size: 25px;
+    bottom: 10%;
+    right:2%;
+    font-weight:400;
+    margin-right:10%;
+} */
+#le{
+    position: absolute;
+    top: 0%;
+    right: 8%;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+#sto i{
+    font-size: 40px;
+    margin-left: 5%;
+}
+#re{
+    position: absolute;
+    top: 0%;
+    right: 8%;
+    font-size: 18px;
+    font-weight: 100;
+    margin-right:0%;
+}
+#sto2 i{
+    font-size: 40px;
+    margin-left: 5%;
+    color: rgba(0, 255, 255, 0.755);
+}
+#nav{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    /* background-color: aqua; */
+    bottom: 0%;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-around;
+    color: rgba(29, 28, 28, 0.688);
+    font-size: 15px;
+}
+/* #nav h6{
+    left: 10%;
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-around;
+    text-align: center;
+} */
+#nav1{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    bottom:20%;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    align-items:baseline;
+    justify-content: space-around;
+    color:rgba(33, 32, 32, 0.63) ;
+    font-size: 15px;
+}
+#nav2{
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    bottom:0%;
+    /* background-color: black; */
+    display: flex;
+    color: rgba(0, 0, 0, 0.603);
+    align-items: center;
+    justify-content: space-around;
+}
+#img{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    background-color: black;
+    background-image: url(insta.png);
+    background-size: cover;
+    left: -10%;
+}
